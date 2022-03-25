@@ -1,0 +1,75 @@
+#root{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.yellow{
+    height: 31%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.yellow-one, .yellow-two{
+    width: 48%;
+    background-color: rgb(235, 202, 15);
+}
+
+.red{
+    height: 31%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.red-one{
+    width: 98%;
+    background-color: rgb(240, 16, 16);
+}
+
+.blue{
+    height: 31%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blue-one, .blue-two, .blue-three{
+    width: 31%;
+    background-color: blueviolet;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    .blue-two{
+        display: none;
+    }
+    .blue{
+        flex-direction: column;
+        align-items: center;
+    }
+    .blue-one, .blue-three{
+        width: 98%;
+        height: 45%;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .blue-two{
+        display: none;
+    }
+    .blue{
+        flex-direction: column;
+        align-items: center;
+    }
+    .blue-one, .blue-three{
+        width: 98%;
+        height: 45%;
+    }
+    .yellow{
+        flex-direction: column;
+        align-items: center;
+    }
+    .yellow-one, .yellow-two{
+        width: 98%;
+        height: 46%;
+    }
+}
