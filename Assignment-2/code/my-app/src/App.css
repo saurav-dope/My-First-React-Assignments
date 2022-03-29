@@ -1,38 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+}
+
+.profile {
+  display: flex;
+  position: absolute;
+  top: calc(50% - 257.2px);
+  left: calc(50% - 337.25px);
+  height: 80%;
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile img {
+  height: 250px;
+  width: 200px;
+}
+
+.employeeName {
+  font-size: 56px;
+  font-weight: bolder;
+  color: rgb(8, 111, 167);
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+label {
+  font-size: 20px;
+  color: grey;
+  font-weight: bolder;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.employeeLocation,
+.employeeBloodGroup,
+.employeeAge {
+  font-size: 26px;
+  font-weight: bolder;
 }
