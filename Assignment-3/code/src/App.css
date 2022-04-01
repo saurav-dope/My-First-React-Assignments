@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.site-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.customer-name {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  background-color: #d3d3d3;
+  border: 1px solid #b2b4b3;
+}
+
+.nameId {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.customer-name span:last-child {
+  color: gray;
+}
+
+.arrow {
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+  color: gray;
+}
+
+.btn {
+  height: 100%;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn button {
+  top: 50%;
+  width: 80px;
+  height: 50px;
+  background-color: #404040;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.customer-info {
+  height: 150px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 24px;
+  border: 1px solid #b2b4b3;
+  padding-left: 40px;
+}
+
+label {
+  font-weight: bolder;
+}
+
+.order-info {
+  height: 100px;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+  background-color: #d3d3d3;
+  border: 1px solid #b2b4b3;
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.door {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #b2b4b3;
+  width: 90%;
+  height: 150px;
+}
+
+.check {
+  height: 100%;
+}
+
+#product-check {
+  margin-left: 50px;
+  height: 50px;
+  width: 50px;
+  margin-top: 50%;
+  background: #fff;
+  box-shadow: none;
+  outline: 2px solid orange;
+  appearance: none;
+  border: none;
+}
+
+#product-check:checked {
+  outline: 2px solid rgb(38, 199, 6);
+  appearance: auto;
+}
+
+.image {
+  margin-left: 50px;
+}
+
+.image img {
+  height: 120px;
+  width: 130px;
+}
+
+.product {
+  margin-left: 50px;
+  font-size: 28px;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.productName {
+  font-weight: bolder;
+}
