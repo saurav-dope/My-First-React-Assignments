@@ -5,9 +5,9 @@ import './Card.css';
 
 export default function Card({ people }) {
   console.log(people);
-  return people.map((person) => {
+  return people.map((person, index) => {
     return (
-      <div className="card">
+      <div className="card" key={index}>
         <div className="info">
           <div className="name">
             {person.name}
