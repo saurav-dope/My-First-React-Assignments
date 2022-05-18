@@ -1,0 +1,29 @@
+{
+    "user":
+            [
+                {
+                    "name":"Peter",
+                "location":"San Fransisco",
+                "likes":164,
+                "description": "Beauty and Bold On A long Way Home",
+                "PostImage": "/images/train.jpg",
+                "date": "10 Jan 2021"
+                },
+                {
+                    "name":"Alex",
+                "location":"Russia",
+                "likes":123,
+                "description": "Nothing is better than getting lost in the nature",
+                "PostImage": "/images/river.jpg",
+                "date": "06 Jan 2021"
+                },
+                {
+                    "name":"Alesia",
+                "location":"San Fransisco",
+                "likes":45,
+                "description": "Till where the eyes can Go",
+                "PostImage": "/images/bridge.jpg",
+                "date": "29 Dec 2020"
+                }
+            ]
+}
